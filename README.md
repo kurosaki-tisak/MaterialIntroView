@@ -116,13 +116,13 @@ dependencies {
 ```
 # Configuration Method
 ```java
-//Create global config instance to not write same config to builder
+//Create global configMaterial instance to not write same configMaterial to builder
 //again and again.
-MaterialIntroConfiguration config = new MaterialIntroConfiguration();
-config.setDelayMillis(1000);
-config.setFadeAnimationEnabled(true);
+MaterialIntroConfiguration configMaterial = new MaterialIntroConfiguration();
+configMaterial.setDelayMillis(1000);
+configMaterial.setFadeAnimationEnabled(true);
 ...
-.setConfiguration(config) //
+.setConfiguration(configMaterial) //
 ```
 
 # Use Custom Shapes
